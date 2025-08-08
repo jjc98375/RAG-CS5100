@@ -47,7 +47,7 @@ class NortheasternRAG:
     def __init__(
         self,
         base_directory: str = "./northeastern_docs",
-        model_name: str = "llama2",
+        model_name: str = "llama3.2",
         embedding_model: str = "nomic-embed-text",
         persist_directory: str = "./northeastern_chroma_db",
         chunk_size: int = 1000,
